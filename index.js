@@ -9,7 +9,7 @@ const sql = require('mssql')
 */
 server.get("/SayHelloAzure", async (req, res, next) => {
 
-	res.status(200).send("Hello Azure");
+	res.status(200).send("Hello Azure 2");
 })
 /*
 server.get("/SayHelloAzure", async (req, res, next) => {
